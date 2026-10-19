@@ -1,6 +1,7 @@
 # Report
 
-Oct 18, 2026 · @Srinjoy Sengupta
+**Name:** Srinjoy Sengupta  
+**Roll No:** 2025202010
 
 Re-ranking the bi-encoder's top 10 with a cross-encoder moved the correct rule into the LLM's context in 7 of my 9 test queries. It made 2 queries worse and added about 350 ms per query on CPU.
 
