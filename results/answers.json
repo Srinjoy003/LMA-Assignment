@@ -1,0 +1,182 @@
+[
+  {
+    "qid": "Q1",
+    "query": "How much extra time does the opponent get when a player makes an illegal move?",
+    "context_1": [
+      157,
+      164,
+      100
+    ],
+    "answer_1": "According to Article A.6, the penalty for an illegal move \"is the addition of one minute to the opponent, instead of two minutes\" as applied in standard chess. Additionally, Article A.3 specifies that the penalties mentioned in Articles 7 and 9 of the Competitive Rules of Play \"shall be one minute instead of two minutes.\" Therefore, the opponent receives one minute of extra time under these rules, rather than the standard two minutes.",
+    "context_2": [
+      97,
+      129,
+      61
+    ],
+    "answer_2": "According to Article 7.5.5, the arbiter shall give two minutes of extra time to the opponent for the first completed illegal move made by a player. For a second completed illegal move by the same player, no additional time is granted; instead, the arbiter shall declare the game lost by that player, provided the opponent can checkmate by a possible series of legal moves.",
+    "P1 retrieve ms": 37.42870001588017,
+    "P1 LLM ms": 25040.544699993916,
+    "P2 retrieve+rerank ms": 692.6508000469767,
+    "P2 LLM ms": 31223.330799955875
+  },
+  {
+    "qid": "Q2",
+    "query": "What is the penalty for an illegal move in rapid chess?",
+    "context_1": [
+      100,
+      164,
+      34
+    ],
+    "answer_1": "According to Article A.6, the penalty for an illegal move is the addition of one minute to the opponent's clock, rather than two minutes as in standard chess. Under this rule, a player does not lose the game upon their first illegal move, but only with the second illegal move.",
+    "context_2": [
+      100,
+      164,
+      156
+    ],
+    "answer_2": "In Rapid chess, \"the player does not lose the game with the first illegal move, but only with the second, as it is in standard chess\" (Article A.6). The penalty awarded is \"the addition of one minute to the opponent, instead of two minutes\" (Article A.6). Additionally, Article A.3 states that the penalties mentioned in Articles 7 and 9 of the Competitive Rules of Play shall be one minute instead of two minutes.",
+    "P1 retrieve ms": 42.55559999728575,
+    "P1 LLM ms": 72358.6352999555,
+    "P2 retrieve+rerank ms": 541.4306999882683,
+    "P2 LLM ms": 8001.235200033989
+  },
+  {
+    "qid": "Q3",
+    "query": "Which things is the arbiter not allowed to tell a player during the game?",
+    "context_1": [
+      134,
+      138,
+      153
+    ],
+    "answer_1": "The provided context does not answer this.",
+    "context_2": [
+      153,
+      152,
+      135
+    ],
+    "answer_2": "According to the provided context, the arbiter \"shall not indicate the number of moves completed, except in applying Article 8.5 when at least one flag has fallen.\" Additionally, the arbiter must \"refrain from informing a player that his/her opponent has completed a move or that the player has not pressed his/her clock.\"",
+    "P1 retrieve ms": 49.24359999131411,
+    "P1 LLM ms": 28737.143800011836,
+    "P2 retrieve+rerank ms": 671.906300005503,
+    "P2 LLM ms": 3505.7871000026353
+  },
+  {
+    "qid": "Q4",
+    "query": "Is a player with less than five minutes required to keep recording the moves?",
+    "context_1": [
+      157,
+      156,
+      67
+    ],
+    "answer_1": "The provided context does not answer this. While the passages discuss scorekeeping rules for Rapid chess under Appendix A (specifically Article A.2, which notes players do not need to record moves), they contain no rules regarding scorekeeping requirements when a player has less than five minutes remaining.",
+    "context_2": [
+      105,
+      159,
+      156
+    ],
+    "answer_2": "According to Article 8.4, if a player has less than five minutes left on their clock during an allotted period of time and does not have an additional time of 30 seconds or more added with each move, they are not obliged to meet the requirements of Article 8.1.1. Therefore, for the remainder of that period, the player is not required to keep recording the moves unless they receive an increment of 30 seconds or more per move.",
+    "P1 retrieve ms": 40.92319996561855,
+    "P1 LLM ms": 4539.375199994538,
+    "P2 retrieve+rerank ms": 796.5766999986954,
+    "P2 LLM ms": 4087.422400014475
+  },
+  {
+    "qid": "Q5",
+    "query": "If I use two hands to castle illegally, is that counted as two illegal moves?",
+    "context_1": [
+      41,
+      34,
+      47
+    ],
+    "answer_1": "The provided context does not answer this. While Articles 3.10, 4.4, and 4.7–4.8 discuss legal and illegal moves, illegal positions, and castling procedures, they do not contain any rules regarding using two hands or whether doing so constitutes two illegal moves.",
+    "context_2": [
+      99,
+      92,
+      100
+    ],
+    "answer_2": "No, it is not counted as two illegal moves. According to the provided context, \"when there are two (2) illegal moves in one move (for example illegal castling made by two hands...), they count as one (1) illegal move and the player shall not be forfeited, unless it is the second such transgression.\" Furthermore, Article 7.5.4 specifies that using two hands to make a single move and pressing the clock is considered and penalised as if an illegal move.",
+    "P1 retrieve ms": 174.9359000241384,
+    "P1 LLM ms": 4918.411599996034,
+    "P2 retrieve+rerank ms": 648.1523999827914,
+    "P2 LLM ms": 5472.111400042195
+  },
+  {
+    "qid": "Q6",
+    "query": "Can an illegal move in rapid chess be corrected after the opponent has replied?",
+    "context_1": [
+      91,
+      35,
+      34
+    ],
+    "answer_1": "The provided context does not answer this. While the passages mention when an arbiter intervenes in Rapid chess (Passage 2) and how illegal moves are handled generally under Article 7.5.1, they do not state whether an illegal move in Rapid chess can be corrected after an opponent has already replied.",
+    "context_2": [
+      162,
+      35,
+      97
+    ],
+    "answer_2": "According to the provided context, once the opponent has made his/her next move, an illegal move cannot be corrected unless this is agreed by the players without the intervention of the arbiter (Passage 1, preceding Article A.5.3). If the opponent does not claim and the arbiter does not intervene before the reply is made, the illegal move stands and the game continues. Therefore, it can only be corrected after the opponent's reply if both players mutually agree to do so without arbiter involvement.",
+    "P1 retrieve ms": 38.181199983228,
+    "P1 LLM ms": 6534.491200000048,
+    "P2 retrieve+rerank ms": 617.0926000340842,
+    "P2 LLM ms": 8302.647099946626
+  },
+  {
+    "qid": "Q7",
+    "query": "Can I keep my phone in my bag during the game?",
+    "context_1": [
+      143,
+      142,
+      139
+    ],
+    "answer_1": "Generally, no mobile phone is allowed in the playing venue, whether switched on or off, and having one found with a player results in an immediate loss of the game (Passage 3, following Article 11.5). However, organizers may specify in the regulations of the event that a player is permitted to bring such a device if it is completely switched off before entering the playing area and stored in a separate bag (Passage 1 and Passage 2). Under these allowed conditions, the bag must not be in contact with the player, and the player must not have access to it during the game without the arbiter's permission (Passage 2).",
+    "context_2": [
+      143,
+      142,
+      135
+    ],
+    "answer_2": "According to Article 11.3.2, a player is generally forbidden from having any electronic device in the playing venue unless specifically approved by the arbiter. However, under Article 11.3.2.1, the regulations of an event may permit such a device to be stored in a player's bag provided it is completely switched off and the bag is placed as agreed with the arbiter. If this is permitted, players are strictly forbidden to access or use the bag during the game without the arbiter's permission (Article 11.3.2.1).",
+    "P1 retrieve ms": 43.23949996614829,
+    "P1 LLM ms": 12266.157800040673,
+    "P2 retrieve+rerank ms": 540.6006000121124,
+    "P2 LLM ms": 18249.73179999506
+  },
+  {
+    "qid": "L1",
+    "query": "Can a player write down his move on the scoresheet before playing it?",
+    "context_1": [
+      103,
+      107,
+      105
+    ],
+    "answer_1": "No, a player is generally not allowed to record a move before playing it. According to Article 8.1.2, \"It is forbidden to record the moves in advance, unless the player is claiming a draw according to Article 9.2, or 9.3 or adjourning a game according to Guidelines I.1.1\". Therefore, writing down a move prior to playing it is only permitted in the specific cases of making a draw claim or adjourning the game.",
+    "context_2": [
+      106,
+      112,
+      109
+    ],
+    "answer_2": "No, it is generally forbidden for a player to record a move before playing it, even if the opponent has only one legal move. The only exceptions are in the case of a draw claim (Article 9.2. and 9.3) and adjourning, where doing so is allowed.",
+    "P1 retrieve ms": 32.73029997944832,
+    "P1 LLM ms": 23493.21059999056,
+    "P2 retrieve+rerank ms": 581.7782999947667,
+    "P2 LLM ms": 30119.337400014047
+  },
+  {
+    "qid": "L2",
+    "query": "Can a player castle with a rook that has already moved?",
+    "context_1": [
+      43,
+      41,
+      32
+    ],
+    "answer_1": "No, a player cannot castle with a rook that has already moved. According to Article 3.8.2.1 and Article 3.8.2.1.2, the right to castle has been lost \"[w]ith a rook that has already moved.\" Therefore, castling with that rook is no longer legally permitted.",
+    "context_2": [
+      41,
+      44,
+      43
+    ],
+    "answer_2": "The provided context does not answer this. While the excerpts discuss touched pieces and procedures for when castling is illegal under Article 4.4 (such as Articles 4.4.1, 4.4.2, and 4.4.3), they do not provide the specific rules regarding whether a rook that has already moved can be used for castling.",
+    "P1 retrieve ms": 34.47929996764287,
+    "P1 LLM ms": 83472.98360004788,
+    "P2 retrieve+rerank ms": 728.9903999771923,
+    "P2 LLM ms": 59285.97310004989
+  }
+]

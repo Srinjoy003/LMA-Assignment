@@ -1,0 +1,6 @@
+stage,mean ms,median ms,p95 ms
+Pipeline 1: bi-encoder query encode + FAISS top-10,38.27,36.14,47.64
+Pipeline 2: bi-encoder + FAISS top-10,37.07,35.37,45.67
+Pipeline 2: cross-encoder re-rank of 10 pairs,615.11,608.51,732.07
+Pipeline 1 total retrieval,38.27,36.14,47.64
+Pipeline 2 total retrieval (+re-rank),652.18,646.15,772.78

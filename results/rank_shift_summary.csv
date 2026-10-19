@@ -1,0 +1,10 @@
+qid,category,gold chunk id(s),baseline rank,re-ranked rank,in baseline top-3,in re-ranked top-3
+Q1,Keyword trap / distractor,[97],5,1,False,True
+Q2,Exception (rule stated elsewhere),"[156, 157]",5,3,False,True
+Q3,Negation / role limit,"[152, 151]",4,2,False,True
+Q4,Exception / corner case,[105],4,1,False,True
+Q5,Corner case (buried at rank 5),[99],5,1,False,True
+Q6,Negation / constraint,[162],4,1,False,True
+Q7,Negation / prohibition,[135],4,3,False,True
+L1,Limitation: article text demoted,[103],1,6,True,False
+L2,Limitation: re-ranker demotes gold,[32],3,5,True,False

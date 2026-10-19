@@ -1,0 +1,14 @@
+# secrets
+.env
+
+# full 374-page manual; only the extracted Laws of Chess chapter is used
+data/Arbiter-Manual-2026.pdf
+
+# assignment brief and personal working notes, not part of the submission
+RAG_LMA_Assignment_v1*.pdf
+REPORT_NOTES.md
+run_notebook.ps1
+
+# Python / Jupyter clutter
+.ipynb_checkpoints/
+__pycache__/
